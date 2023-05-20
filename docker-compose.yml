@@ -1,0 +1,7 @@
+version: '3.8
+services:
+  react-js: 
+    container_name: 'reactjs-pro'
+    build: .
+    port:
+      '3033:80'
