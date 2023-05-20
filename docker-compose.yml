@@ -3,5 +3,5 @@ services:
   react-js: 
     container_name: 'reactjs-pro'
     build: .
-    port:
+    ports:
       '3033:80'
